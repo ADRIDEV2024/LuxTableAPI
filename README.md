@@ -68,3 +68,45 @@ uvicorn app.main:app --reload
 ```
 
 ---
+
+## 📬 Endpoints principales
+
+| Método | Ruta                 | Qué hace                    |
+| ------ | -------------------- | --------------------------- |
+| POST   | `/auth/login`        | Iniciar sesión de usuario   |
+| POST   | `/users/`            | Registrar nuevo usuario     |
+| GET    | `/users/me`          | Ver perfil del usuario      |
+| POST   | `/reservations/`     | Crear una nueva reserva     |
+| GET    | `/reservations/{id}` | Ver detalles de una reserva |
+| DELETE | `/reservations/{id}` | Cancelar una reserva        |
+| GET    | `/tables/`           | Ver lista de mesas          |
+| POST   | `/tables/`           | Crear una nueva mesa        |
+| WS     | `/ws/notifications`  | Ver notificaciones en vivo  |
+
+---
+
+## 📈 Reportes disponibles
+
+- `GET /reports/most_reserved_tables`: Mesas más reservadas.
+- `GET /reports/top_users`: Usuarios con más reservas.
+
+---
+
+## 📚 Documentación interactiva
+
+Puedes explorar todos los detalles de la API en la documentación disponible:
+
+- OpenAPI: [LuxTable-API-OpenAPI](http://localhost:8000/openapi)
+- Redoc: [LuxTable-API-redoc](http://localhost:8000/redoc)
+
+---
+
+## 🙌 ¿Cómo ayudar al proyecto?
+
+¿Tienes ideas para mejorar LuxTable? Puedes colaborar haciendo un fork del repositorio y enviando tus sugerencias.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está disponible bajo la licencia **GNU**
