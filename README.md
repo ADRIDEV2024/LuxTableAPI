@@ -28,7 +28,7 @@ Bienvenido a **LuxTable**, una API de arquitectura RESTful construida con **Fast
 
 ---
 
-## 🚀 ¿Cómo usar este proyecto?
+## 🚀 ¿Cómo probar este proyecto?
 
 ### 1. Clonar el proyecto
 
