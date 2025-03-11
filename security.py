@@ -8,15 +8,15 @@ from app.config.secrets import security_settings
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
-# Hashea contraseñas
+
 def hash_password(password: str) -> str:
     return pwd_context.hash(password)
 
-# Verifica contraseñas
+
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     return pwd_context.verify(plain_password, hashed_password)
 
-# Crea un JWT token
+
 def create_access_token(data: dict, expires_delta: timedelta = None) -> str:
     to_encode = data.copy()
     expire = datetime.utcnow() + (expires_delta or timedelta(minutes=security_settings.ACCESS_TOKEN_EXPIRE_MINUTES))
