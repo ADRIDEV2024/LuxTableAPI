@@ -71,7 +71,7 @@ uvicorn app.main:app --reload
 
 ## 📬 Endpoints principales
 
-| Método | Ruta                 | Qué hace                    |
+| Método | Ruta                 | Función                     |
 | ------ | -------------------- | --------------------------- |
 | POST   | `/auth/login`        | Iniciar sesión de usuario   |
 | POST   | `/users/`            | Registrar nuevo usuario     |
@@ -110,3 +110,7 @@ Puedes explorar todos los detalles de la API en la documentación disponible:
 ## 📄 Licencia
 
 Este proyecto está disponible bajo la licencia **GNU**
+
+---
+
+¡Gracias por usar **LuxTable**, ya basta de quedarse con hambre!
