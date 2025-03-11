@@ -33,8 +33,8 @@ Bienvenido a **LuxTable**, una API de arquitectura RESTful construida con **Fast
 ### 1. Clonar el proyecto
 
 ```bash
-git clone https://github.com/ADRIDEV2024/luxtable-api.git
-cd luxetable-api
+git clone https://github.com/ADRIDEV2024/LuxTableAPI.git
+cd LuxTableAPI
 ```
 
 ### 2. Crear un entorno virtual
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 Crea un archivo llamado **.env** con lo siguiente:
 
 ```env
-DATABASE_URL=mysql:///./luxetable.db
+DATABASE_URL=mysql:///./luxtable.db
 SECRET_KEY=your_secret_key
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 DEBUG=True
